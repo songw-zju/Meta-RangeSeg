@@ -1,0 +1,39 @@
+********************************************************************************
+INTERFACE:
+Data:  /tmp/codalab/tmpZyo8FC/run/input/ref
+Predictions:  /tmp/codalab/tmpZyo8FC/run/input/res
+Backend:  numpy
+Split:  test
+Config:  /tmp/codalab/tmpZyo8FC/run/program/semantic-kitti.yaml
+Limit:  None
+Codalab:  /tmp/codalab/tmpZyo8FC/run/output
+********************************************************************************
+Opening data config file /tmp/codalab/tmpZyo8FC/run/program/semantic-kitti.yaml
+Ignoring xentropy class  0  in IoU evaluation
+[IOU EVAL] IGNORE:  [0]
+[IOU EVAL] INCLUDE:  [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
+Evaluating sequences: 10% 20% 30% 40% 50% 60% 70% 80% 90% Validation set:
+Acc avg 0.900
+IoU avg 0.610
+IoU class 1 [car] = 0.939
+IoU class 2 [bicycle] = 0.501
+IoU class 3 [motorcycle] = 0.438
+IoU class 4 [truck] = 0.439
+IoU class 5 [other-vehicle] = 0.432
+IoU class 6 [person] = 0.637
+IoU class 7 [bicyclist] = 0.531
+IoU class 8 [motorcyclist] = 0.187
+IoU class 9 [road] = 0.906
+IoU class 10 [parking] = 0.643
+IoU class 11 [sidewalk] = 0.746
+IoU class 12 [other-ground] = 0.292
+IoU class 13 [building] = 0.911
+IoU class 14 [fence] = 0.647
+IoU class 15 [vegetation] = 0.826
+IoU class 16 [trunk] = 0.655
+IoU class 17 [terrain] = 0.655
+IoU class 18 [pole] = 0.563
+IoU class 19 [traffic-sign] = 0.642
+********************************************************************************
+below can be copied straight for paper table
+0.939,0.501,0.438,0.439,0.432,0.637,0.531,0.187,0.906,0.643,0.746,0.292,0.911,0.647,0.826,0.655,0.655,0.563,0.642,0.610,0.900
