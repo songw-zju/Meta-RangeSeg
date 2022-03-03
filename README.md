@@ -11,3 +11,15 @@ This paper is under review currently. Code will be made publicly available soon!
 - [ ] Add pretrained model for single scan
 - [ ] Add demo for Meta-RangeSeg
 - [ ] Add full training code and results
+
+## Citations
+```
+@misc{wang2022metarangeseg,
+      title={Meta-RangeSeg: LiDAR Sequence Semantic Segmentation Using Multiple Feature Aggregation}, 
+      author={Song Wang and Jianke Zhu and Ruixiang Zhang},
+      year={2022},
+      eprint={2202.13377},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
