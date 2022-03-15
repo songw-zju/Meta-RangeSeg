@@ -1,4 +1,6 @@
 # Meta-RangeSeg
+> Song Wang, Jianke Zhu*, Ruixiang Zhang
+
 This is the official implementation of **Meta-RangeSeg: LiDAR Sequence Semantic Segmentation Using Multiple Feature Aggregation**  [[Paper](https://arxiv.org/pdf/2202.13377.pdf)] [[Video](https://youtu.be/xUFsmmjZYuA)]. [![arXiv](https://img.shields.io/badge/arxiv-2202.13377-b31b1b.svg)](https://arxiv.org/abs/2202.13377) 	
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/meta-rangeseg-lidar-sequence-semantic/3d-semantic-segmentation-on-semantickitti)](https://paperswithcode.com/sota/3d-semantic-segmentation-on-semantickitti?p=meta-rangeseg-lidar-sequence-semantic)
 
