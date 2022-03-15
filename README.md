@@ -18,7 +18,7 @@ This is the official implementation of **Meta-RangeSeg: LiDAR Sequence Semantic 
 ## Model Zoo
 | Model  | Task   | mIoU(paper)<br>[on test set] | mIoU(reprod.)<br>[on test set] | Results |
 | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: |
-| [Meta-RangeSeg_v1](https://drive.google.com/file/d/1vq1fP6MjXIYZTnW6jhAAMfidKJCuZ3Zl/view?usp=sharing) | **multiple scans** semantic segmentation | 49.5 | 49.7 | [valid_pred](https://drive.google.com/file/d/1yMFevZtoZcaYZ6F6dtONKIwT9QXgSTyf/view?usp=sharing) |
+| [Meta-RangeSeg_v1](https://drive.google.com/file/d/1vq1fP6MjXIYZTnW6jhAAMfidKJCuZ3Zl/view?usp=sharing) | **multiple scans** semantic segmentation | 49.5 | 49.7 | [valid_pred](https://drive.google.com/file/d/1yMFevZtoZcaYZ6F6dtONKIwT9QXgSTyf/view?usp=sharing)<br>[test_pred](https://drive.google.com/file/d/1YyasP3OIALwArXqhdcvuCFG3_j0exBPm/view?usp=sharing)|
 
 
 
