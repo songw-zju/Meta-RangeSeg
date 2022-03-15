@@ -10,7 +10,7 @@ This is the official implementation of **Meta-RangeSeg: LiDAR Sequence Semantic 
 | **Birds-Eye View**   | ![z](fig/top_60_pred.gif)   | ![z](fig/top_60.gif)   |
 
 ## Demo
-<p align="center"> <a href="https://youtu.be/xUFsmmjZYuA"><img src="fig/video.png" width="80%"></a> </p>
+<p align="center"> <a href="https://youtu.be/xUFsmmjZYuA"><img src="fig/demo.png" width="80%"></a> </p>
 
 
 ## Model Zoo
