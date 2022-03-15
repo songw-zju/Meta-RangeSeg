@@ -31,8 +31,8 @@ LiDAR sensor is essential to the perception system in autonomous vehicles and in
 ## TO DO
 This paper is under review currently. Code will be made publicly available soon!
 
-- [x] Add pretrained model for multiple scans
-- [ ] Add pretrained model for single scan
+- [x] Add pretrained model and results for multiple scans
+- [ ] Add pretrained model and results for single scan
 - [ ] Add code for inference
 - [x] Add demo for Meta-RangeSeg
 - [ ] Add full training code and results
