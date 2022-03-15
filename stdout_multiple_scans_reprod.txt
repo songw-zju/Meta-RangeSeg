@@ -1,0 +1,46 @@
+********************************************************************************
+INTERFACE:
+Data:  /tmp/codalab/tmpKmV27R/run/input/ref
+Predictions:  /tmp/codalab/tmpKmV27R/run/input/res
+Backend:  numpy
+Split:  test
+Config:  /tmp/codalab/tmpKmV27R/run/program/semantic-kitti-all.yaml
+Limit:  None
+Codalab:  /tmp/codalab/tmpKmV27R/run/output
+********************************************************************************
+Opening data config file /tmp/codalab/tmpKmV27R/run/program/semantic-kitti-all.yaml
+Ignoring xentropy class  0  in IoU evaluation
+[IOU EVAL] IGNORE:  [0]
+[IOU EVAL] INCLUDE:  [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+ 25]
+Evaluating sequences: 10% 20% 30% 40% 50% 60% 70% 80% 90% Validation set:
+Acc avg 0.895
+IoU avg 0.497
+IoU class 1 [car] = 0.908
+IoU class 2 [bicycle] = 0.500
+IoU class 3 [motorcycle] = 0.495
+IoU class 4 [truck] = 0.295
+IoU class 5 [other-vehicle] = 0.348
+IoU class 6 [person] = 0.166
+IoU class 7 [bicyclist] = 0.000
+IoU class 8 [motorcyclist] = 0.000
+IoU class 9 [road] = 0.908
+IoU class 10 [parking] = 0.629
+IoU class 11 [sidewalk] = 0.748
+IoU class 12 [other-ground] = 0.265
+IoU class 13 [building] = 0.898
+IoU class 14 [fence] = 0.621
+IoU class 15 [vegetation] = 0.828
+IoU class 16 [trunk] = 0.657
+IoU class 17 [terrain] = 0.665
+IoU class 18 [pole] = 0.562
+IoU class 19 [traffic-sign] = 0.645
+IoU class 20 [moving-car] = 0.690
+IoU class 21 [moving-bicyclist] = 0.604
+IoU class 22 [moving-person] = 0.579
+IoU class 23 [moving-motorcyclist] = 0.220
+IoU class 24 [moving-other-vehicle] = 0.166
+IoU class 25 [moving-truck] = 0.026
+********************************************************************************
+below can be copied straight for paper table
+0.908,0.500,0.495,0.295,0.348,0.166,0.000,0.000,0.908,0.629,0.748,0.265,0.898,0.621,0.828,0.657,0.665,0.562,0.645,0.690,0.604,0.579,0.220,0.166,0.026,0.497,0.895
