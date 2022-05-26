@@ -9,7 +9,7 @@ This is the official implementation of **Meta-RangeSeg: LiDAR Sequence Semantic 
 |                      | **Prediction**              | **Groud Truth**        |
 | -------------------- | --------------------------- | ---------------------- |
 | **Perspective View** | ![z](fig/front_60_pred.gif) | ![z](fig/front_60.gif) |
-| **Birds-Eye View**   | ![z](fig/top_60_pred.gif)   | ![z](fig/top_60.gif)   |
+| **Bird's-Eye View**   | ![z](fig/top_60_pred.gif)   | ![z](fig/top_60.gif)   |
 
 ## Demo
 <p align="center"> <a href="https://youtu.be/xUFsmmjZYuA"><img src="fig/demo.png" width="80%"></a> </p>
