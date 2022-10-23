@@ -69,7 +69,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--log', '-l',
         type=str,
-        default="/home/ws/project/point_cloud/Meta-RangeSeg",
+        default="./Meta-RangeSeg",
         help='Directory to put the log data. Default: ~/logs/date+time'
     )
     parser.add_argument(

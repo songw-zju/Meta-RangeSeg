@@ -36,7 +36,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--log', '-l',
         type=str,
-        default=os.path.expanduser("/home/ws/project/point_cloud/Meta-RangeSeg") + '/results/' +
+        default=os.path.expanduser("./Meta-RangeSeg") + '/results/' +
                 datetime.datetime.now().strftime("%Y-%-m-%d-%H:%M") + '/',
         help='Directory to put the predictions. Default: ~/logs/date+time'
     )
