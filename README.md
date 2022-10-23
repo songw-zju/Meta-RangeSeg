@@ -28,23 +28,21 @@ LiDAR sensor is essential to the perception system in autonomous vehicles and in
 
 
 
-## TO DO
-This paper is under review currently. Code will be made publicly available soon!
+## Acknowledgment
+This project is heavily based on [SalsaNext](https://github.com/TiagoCortinhal/SalsaNext) and [LiDAR-MOS](https://github.com/PRBonn/LiDAR-MOS). 
+[RangeDet](https://github.com/tusen-ai/RangeDet) and [FIDNet](https://github.com/placeforyiming/IROS21-FIDNet-SemanticKITTI) are also excellent range-based models, which help us a lot.
 
-- [x] Add pretrained model and results for multiple scans
-- [ ] Add pretrained model and results for single scan
-- [ ] Add code for inference
-- [x] Add demo for Meta-RangeSeg
-- [ ] Add full training code and results
 
 ## Citations
 ```
-@misc{wang2022metarangeseg,
-      title={Meta-RangeSeg: LiDAR Sequence Semantic Segmentation Using Multiple Feature Aggregation}, 
-      author={Song Wang and Jianke Zhu and Ruixiang Zhang},
-      year={2022},
-      eprint={2202.13377},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{wang2022metarangeseg,
+  title={Meta-RangeSeg: LiDAR Sequence Semantic Segmentation Using Multiple Feature Aggregation},
+  author={Song Wang and Jianke Zhu and Ruixiang Zhang},
+  journal={IEEE Robotics and Automation Letters},
+  volume={7},
+  number={4},
+  pages={9739-9746},
+  year={2022},
+  publisher={IEEE}
 }
 ```
