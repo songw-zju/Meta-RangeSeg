@@ -9,7 +9,7 @@ train:
   momentum: 0.9          # sgd momentum
   lr_decay: 0.99         # learning rate decay per epoch after initial cycle (from min lr)
   w_decay: 0.0001        # weight decay 0.0001
-  batch_size: 2              # batch size
+  batch_size: 4              # batch size
   report_batch: 10        # every x batches, report loss
   report_epoch: 1        # every x epochs, report validation set
   epsilon_w: 0.001       # class weight w = 1 / (content + epsilon_w)
@@ -21,8 +21,8 @@ train:
   workers: 4            # number of threads to get data
 
   # for multiple scans
-  residual: False # This needs to be the same as in the dataset params below!
-  n_input_scans: 1 # This needs to be the same as in the dataset params below!
+  residual: True # This needs to be the same as in the dataset params below!
+  n_input_scans: 3 # This needs to be the same as in the dataset params below!
 
 ################################################################################
 # postproc parameters
@@ -70,6 +70,6 @@ dataset:
       - 0.16
 
     # for multiple scans
-    n_input_scans: 1 # This needs to be the same as in the backbone params above!
-    residual: False # This needs to be the same as in the backbone params above!
-    transform: False # transform the last n_input_scans - 1 frames before concatenation
+    n_input_scans: 3 # This needs to be the same as in the backbone params above!
+    residual: True # This needs to be the same as in the backbone params above!
+    transform: True # transform the last n_input_scans - 1 frames before concatenation
