@@ -472,7 +472,7 @@ class Trainer():
                     proj_labels = proj_labels.cuda(non_blocking=True).long()
 
                 # compute output
-                [output, z2, z4, z8] = model(in_vol)
+                output = model(in_vol)
                 log_out = torch.log(output.clamp(min=1e-8))
                 jacc = self.ls(output, proj_labels)
                 # bd = self.bd(output, proj_labels)
