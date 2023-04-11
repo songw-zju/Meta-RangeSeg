@@ -19,8 +19,8 @@ This is the official implementation of **Meta-RangeSeg: LiDAR Sequence Semantic 
 ## Model Zoo
 |                                                Model                                                | Task   | mIoU(paper)<br>[on test set] | mIoU(reprod.)<br>[on test set] | Results |
 |:---------------------------------------------------------------------------------------------------:| :----------------: | :----------------: | :----------------: | :----------------: |
-| [Meta-RangeSeg](https://drive.google.com/file/d/1vq1fP6MjXIYZTnW6jhAAMfidKJCuZ3Zl/view?usp=sharing) | **multiple scans** semantic segmentation | 49.7 | 49.7 | [valid_pred](https://drive.google.com/file/d/1yMFevZtoZcaYZ6F6dtONKIwT9QXgSTyf/view?usp=sharing)<br>[test_pred](https://drive.google.com/file/d/1YyasP3OIALwArXqhdcvuCFG3_j0exBPm/view?usp=sharing)|
-| [Meta-RangeSeg]() | **single scan** semantic segmentation | 61.0 | - | [valid_pred]()<br>[test_pred]()|
+| [Meta-RangeSeg](https://drive.google.com/file/d/1vq1fP6MjXIYZTnW6jhAAMfidKJCuZ3Zl/view?usp=sharing) | **multiple scans** semantic segmentation | 49.5 | 49.7 | [valid_pred](https://drive.google.com/file/d/1yMFevZtoZcaYZ6F6dtONKIwT9QXgSTyf/view?usp=sharing)<br>[test_pred](https://drive.google.com/file/d/1YyasP3OIALwArXqhdcvuCFG3_j0exBPm/view?usp=sharing)|
+| [Meta-RangeSeg](https://drive.google.com/file/d/1k5fhZO4PYVdhkEkAnHlFje9is88yMXs-/view?usp=sharing) | **single scan** semantic segmentation | 61.0 | 60.3 | [valid_pred](https://drive.google.com/file/d/13nD-nZdlUB7sktXSnWsVDsDCn5RMAMeF/view?usp=sharing)<br>[test_pred](https://drive.google.com/file/d/1VMmoxdJqPGKIGewR_DED1K0terVHJgKG/view?usp=sharing)|
 
 
 ## Data Preparation
@@ -54,13 +54,13 @@ This project is heavily based on [SalsaNext](https://github.com/TiagoCortinhal/S
 
 ## Citations
 ```
-@article{wang2022metarangeseg,
+@article{wang2022meta,
   title={Meta-RangeSeg: LiDAR Sequence Semantic Segmentation Using Multiple Feature Aggregation},
-  author={Song Wang and Jianke Zhu and Ruixiang Zhang},
+  author={Wang, Song and Zhu, Jianke and Zhang, Ruixiang},
   journal={IEEE Robotics and Automation Letters},
   volume={7},
   number={4},
-  pages={9739-9746},
+  pages={9739--9746},
   year={2022},
   publisher={IEEE}
 }
